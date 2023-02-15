@@ -16,5 +16,7 @@ if __name__ == "__main__":
         def mostrar(self):
             print(f"X: {str(self.getx())} \nY: {str(self.gety())}")
 
+            #
+
 
 
