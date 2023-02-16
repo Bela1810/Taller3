@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
 
 
-        ##A la clase del punto anterior, defínale los siguientes métodos:
+##A la clase del punto anterior, defínale los siguientes métodos:
 
 #- Un método calcular_distancia que calcule la distancia de la instancia actual con otro punto.
 
