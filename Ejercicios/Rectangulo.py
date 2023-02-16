@@ -16,13 +16,12 @@ if __name__ == "__main__":
             print(f"El area del rectangulo es: {area}")
 
         def es_cuadrado(self):
-            print("Es cuadrado?")
 
             if self.base == self.altura:
-                print(True)
+                print(f"Es cuadrado?: {True}")
 
             else:
-                print(False)
+                print(f"Es cuadrado?: {False}")
 
 
     rectangulo_1 = Rectangulo( 2, 6)
