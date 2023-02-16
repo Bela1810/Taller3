@@ -1,5 +1,7 @@
 if __name__ == "__main__":
 
+    from Ejercicios import Punto
+
     import math
 
     PI = math.pi
@@ -17,8 +19,18 @@ if __name__ == "__main__":
             perimetro= 2 * PI * self.radio
             print(f"El perimetro del circulo es: {perimetro}")
 
-        def pertenece_circulo(self):
-            pass
+        def pertenece_circulo(self, nuevo_punto):
+            diferencia_x = self.centro.x - nuevo_punto.x
+            diferencia_y= self.centro.y - nuevo_punto.y
+
+            pitagoras= (diferencia_x **2 + diferencia_y**2)**1/2
+
+            if pitagoras <= self.radio:
+                print("El punto pertenece al circulo")
+
+            else:
+                print("El punto no pertenece al circulo")
+
 
     circulo_1 = Circulo(4, 6)
     circulo_1.area_circulo()
