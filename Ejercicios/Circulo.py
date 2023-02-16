@@ -10,7 +10,7 @@ if __name__ == "__main__":
             self.radio = radio
 
         def area_circulo(self):
-            area = pi * self.radio ** 2
+            area = PI * self.radio ** 2
             print(f"El area del circulo es: {area}")
 
         def perimetro_circulo(self):
@@ -20,7 +20,7 @@ if __name__ == "__main__":
         def pertenece_circulo(self):
             pass
 
-    circulo_1 = Circulo( 4, 6 )
+    circulo_1 = Circulo(4, 6)
     circulo_1.area_circulo()
     circulo_1.perimetro_circulo()
 
